@@ -3,32 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Ansh</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <div class="container">
+        <nav>
+            <a href="index.html">home</a>
+            <a href="projects.html">projects</a>
+            <a href="blog.html">blog</a>
+        </nav>
 
-    <h1>my <span>projects</span></h1>
+        <h1>Projects</h1>
+        
+        <div class="project-card">
+            <h2>Traffic Anomaly Detection</h2>
+            <div class="tech-stack">Python, TensorFlow, OpenCV</div>
+            <a href="https://github.com/nameisansh/traffic-anomaly-detection" class="github-link" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <ul>
+                <li>Built deep learning system for CCTV analysis</li>
+                <li>Used CNNs/RNNs for spatiotemporal analysis</li>
+                <li>Real-time detection system implementation</li>
+            </ul>
+        </div>
 
-    <div class="section">
-        <h2>serious projects</h2>
-        <ul>
-            <li><a href="#">Publication Summary Generator</a> - A tool to analyze research papers.</li>
-            <li><a href="#">Disease Prediction Model</a> - Machine learning model for diabetes risk.</li>
-        </ul>
+        <div class="project-card">
+            <h2>AWS Traffic Data Pipeline</h2>
+            <div class="tech-stack">AWS Kinesis, Lambda, Redshift</div>
+            <a href="https://github.com/nameisansh/aws-traffic-pipeline" class="github-link" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <ul>
+                <li>Designed serverless data processing pipeline</li>
+                <li>Implemented real-time streaming with Kinesis</li>
+                <li>Dashboard visualization of processed data</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <h2>Publication Summary Generator</h2>
+            <div class="tech-stack">Flask, BeautifulSoup, PostgreSQL</div>
+            <a href="https://github.com/nameisansh/publication-summarizer" class="github-link" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <ul>
+                <li>Developed academic publication summarizer</li>
+                <li>Excel/BibTeX input support</li>
+                <li>Database storage for publication analytics</li>
+            </ul>
+        </div>
     </div>
-
-    <div class="section">
-        <h2>fun projects</h2>
-        <ul>
-            <li><a href="#">AI-powered Meme Generator</a></li>
-            <li><a href="#">Automated Twitter Bot</a></li>
-        </ul>
-    </div>
-
-    <div class="footer">
-        <a href="index.html">back</a>
-    </div>
-
 </body>
 </html>
