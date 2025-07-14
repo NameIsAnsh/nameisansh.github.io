@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ansh Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="terminal-prompt">ansh@portfolio:~$</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="projects.html" class="active">projects</a></li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="projects-hero">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn red"></span>
+                            <span class="btn yellow"></span>
+                            <span class="btn green"></span>
+                        </div>
+                        <div class="terminal-title">ansh@portfolio: ~/projects</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">ansh@portfolio:~/projects$</span>
+                            <span class="command">ls -la</span>
+                        </div>
+                        <div class="output">
+                            <h1>My Projects</h1>
+                            <p>A collection of my work in software development, machine learning, and web applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Projects from Resume -->
+            <section class="featured-projects">
+                <h2 class="section-title"># Featured Projects</h2>
+                
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3 class="project-title">Disease Risk Prediction Web App</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">KNN</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Pandas</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>Built a multi-page Streamlit web app for predicting diabetes risk using patient data. Included visualizations, model evaluation, educational content, and health tips. Deployed and optimized the model using JoliB Cloud Platform.</p>
+                    </div>
+                    <div class="project-features">
+                        <ul>
+                            <li>Machine learning model for diabetes risk prediction</li>
+                            <li>Interactive data visualizations</li>
+                            <li>Educational content and health recommendations</li>
+                            <li>Cloud deployment with optimization</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/NameIsAnsh/diabetes_prediction_project" target="_blank" class="project-link">
+                            <span>View Code</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3 class="project-title">Academic Publication Summary Tool</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">BeautifulSoup</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>Developed a web app that extracts and organizes publication data from BibTeX, Excel, and DBLP. Enabled auto-sync with Google Scholar and filtering/export to Word/Excel formats. Designed a PostgreSQL schema for persistent storage and historical updates.</p>
+                    </div>
+                    <div class="project-features">
+                        <ul>
+                            <li>Multi-format data extraction (BibTeX, Excel, DBLP)</li>
+                            <li>Google Scholar integration</li>
+                            <li>Export functionality to Word/Excel</li>
+                            <li>PostgreSQL database design</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3 class="project-title">AWS-Based Portfolio Deployment Project</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS EC2</span>
+                            <span class="tech-tag">S3</span>
+                            <span class="tech-tag">Route 53</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>Deployed a personal project on AWS using EC2 (backend hosting), S3 (static assets), and Route 53 (domain mapping). Set up automated deployment and secured app with IAM roles. Learned and implemented basic cost management, permissions, and network architecture.</p>
+                    </div>
+                    <div class="project-features">
+                        <ul>
+                            <li>Multi-service AWS architecture</li>
+                            <li>Automated deployment pipeline</li>
+                            <li>IAM security implementation</li>
+                            <li>Cost optimization strategies</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- GitHub Projects -->
+            <section class="github-projects">
+                <h2 class="section-title"># GitHub Repository</h2>
+                
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn red"></span>
+                            <span class="btn yellow"></span>
+                            <span class="btn green"></span>
+                        </div>
+                        <div class="terminal-title">ansh@portfolio: ~/github</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">ansh@portfolio:~/github$</span>
+                            <span class="command">git clone https://github.com/NameIsAnsh</span>
+                        </div>
+                        <div class="output">
+                            <div class="projects-grid">
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3 class="project-title">Fake-News-Detection</h3>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">Jupyter Notebook</span>
+                                            <span class="tech-tag">NLP</span>
+                                            <span class="tech-tag">Machine Learning</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-description">
+                                        <p>Used various natural language processing techniques and machine learning algorithms to classify fake news articles using sci-kit libraries from Python.</p>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/NameIsAnsh/Fake-News-Detection" target="_blank" class="project-link">
+                                            <span>View Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3 class="project-title">Weather-App</h3>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">JavaScript</span>
+                                            <span class="tech-tag">API Integration</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-description">
+                                        <p>Weather App that provides weather forecasts for a specified location. Displays weather conditions for the next 14 days, including temperature, precipitation probability, and other relevant data.</p>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/NameIsAnsh/Weather-App" target="_blank" class="project-link">
+                                            <span>View Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3 class="project-title">News-Application</h3>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">Python</span>
+                                            <span class="tech-tag">Web Scraping</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-description">
+                                        <p>A basic news application coded in Python that aggregates and displays news from various sources.</p>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/NameIsAnsh/News-Application" target="_blank" class="project-link">
+                                            <span>View Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3 class="project-title">Chat_bot</h3>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">Python</span>
+                                            <span class="tech-tag">NLP</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-description">
+                                        <p>A conversational chatbot built with Python, implementing natural language processing for interactive communication.</p>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/NameIsAnsh/Chat_bot" target="_blank" class="project-link">
+                                            <span>View Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3 class="project-title">Alien_Invasion_Game</h3>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">Python</span>
+                                            <span class="tech-tag">Pygame</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-description">
+                                        <p>A basic alien invasion game written in Python using the Pygame library. Players control a spaceship to shoot down invading aliens while avoiding their projectiles.</p>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/NameIsAnsh/Alien_Invasion_Game" target="_blank" class="project-link">
+                                            <span>View Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="project-card">
+                                    <div class="project-header">
+                                        <h3 class="project-title">Text-Editor</h3>
+                                        <div class="project-tech">
+                                            <span class="tech-tag">Python</span>
+                                            <span class="tech-tag">GUI</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-description">
+                                        <p>A basic text editor application built with Python, featuring essential text editing functionalities.</p>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/NameIsAnsh/Text-Editor" target="_blank" class="project-link">
+                                            <span>View Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">ansh@portfolio:~/github$</span>
+                            <span class="cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Ansh. Built with ❤️ and lots of ☕</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
